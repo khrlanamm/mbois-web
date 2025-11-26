@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kebijakan Privasi - M-BOIS</title>
+    <link rel="icon" href="res/mbois.png" type="image/png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* --- Shared Styles (from index.html) --- */
+      :root {
+        --primary: #fdaa0c;
+        --secondary: #78280c;
+        --bg-cream: #fffbd6;
+        --text-dark: #2d1810;
+        --white: #ffffff;
+        --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: var(--bg-cream);
+        color: var(--text-dark);
+        line-height: 1.8;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2rem;
+      }
+
+      /* --- Header --- */
+      header {
+        padding: 2rem 0;
+        border-bottom: 1px solid rgba(120, 40, 12, 0.1);
+        margin-bottom: 3rem;
+      }
+
+      .nav-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        font-family: "Playfair Display", serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--secondary);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .back-link {
+        color: var(--secondary);
+        text-decoration: none;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        transition: var(--transition);
+      }
+
+      .back-link:hover {
+        color: var(--primary);
+        transform: translateX(-5px);
+      }
+
+      /* --- Content --- */
+      .content-wrapper {
+        background: rgba(255, 255, 255, 0.5);
+        padding: 3rem;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(120, 40, 12, 0.05);
+        margin-bottom: 4rem;
+        backdrop-filter: blur(10px);
+      }
+
+      h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 2.5rem;
+        color: var(--secondary);
+        margin-bottom: 1rem;
+        text-align: center;
+      }
+
+      .last-updated {
+        text-align: center;
+        color: #666;
+        font-size: 0.9rem;
+        margin-bottom: 3rem;
+        font-style: italic;
+      }
+
+      h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 1.5rem;
+        color: var(--secondary);
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        border-left: 4px solid var(--primary);
+        padding-left: 1rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+        color: var(--secondary);
+      }
+
+      p {
+        margin-bottom: 1rem;
+        color: #5a4a42;
+      }
+
+      ul {
+        margin-bottom: 1rem;
+        padding-left: 1.5rem;
+        color: #5a4a42;
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      .highlight-box {
+        background: rgba(253, 170, 12, 0.1);
+        padding: 1.5rem;
+        border-radius: 10px;
+        border: 1px solid rgba(253, 170, 12, 0.3);
+        margin: 1.5rem 0;
+      }
+
+      /* --- Footer --- */
+      footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--secondary);
+        font-size: 0.9rem;
+        opacity: 0.8;
+      }
+
+      @media (max-width: 768px) {
+        .content-wrapper {
+          padding: 1.5rem;
+        }
+        
+        h1 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav-content">
+          <a href="/" class="logo">
+            <img
+              src="res/mbois.png"
+              alt="M-BOIS Logo"
+              style="height: 50px; width: auto"
+              onerror="this.src='https://placehold.co/50x50/FDAA0C/78280C?text=MBOIS'"
+            />
+          </a>
+          <a href="/" class="back-link">← Kembali ke Beranda</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="content-wrapper">
+        <h1>Kebijakan Privasi Aplikasi M-BOIS</h1>
+        <p class="last-updated">Terakhir diperbarui: 26 November 2025</p>
+
+        <p>
+          Selamat datang di M-BOIS ("Aplikasi"). Aplikasi ini dikembangkan dan
+          dikelola oleh TIM M-BOIS 2025. M-BOIS adalah aplikasi edukasi budaya
+          Jawa Timur yang mengintegrasikan permainan kartu fisik dengan
+          teknologi digital.
+        </p>
+        <p>
+          Kami menghormati privasi Anda dan berkomitmen untuk melindungi data
+          pribadi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami
+          mengumpulkan, menggunakan, menyimpan, dan melindungi informasi Anda
+          saat menggunakan aplikasi M-BOIS, khususnya terkait fitur Login
+          Google, akses Kamera, dan penggunaan AI.
+        </p>
+
+        <h2>1. Informasi yang Kami Kumpulkan</h2>
+        <p>
+          Agar Aplikasi dapat berfungsi secara optimal dan memberikan pengalaman
+          yang personal, kami mengumpulkan jenis informasi berikut:
+        </p>
+
+        <h3>A. Informasi Akun (Melalui Google Sign-In)</h3>
+        <p>
+          Saat Anda memilih untuk masuk (Login) ke Aplikasi menggunakan akun
+          Google, kami akan meminta izin untuk mengakses dan mengumpulkan
+          informasi profil publik Anda, yang meliputi:
+        </p>
+        <ul>
+          <li>
+            <strong>Nama Lengkap:</strong> Untuk menyapa dan menampilkan
+            identitas pengguna di dalam aplikasi.
+          </li>
+          <li>
+            <strong>Alamat Email:</strong> Sebagai pengenal unik akun Anda (User
+            ID) dan untuk keperluan pemulihan akses.
+          </li>
+          <li>
+            <strong>Foto Profil:</strong> Untuk ditampilkan pada halaman profil
+            pengguna di dalam aplikasi agar pengalaman bermain lebih personal.
+          </li>
+        </ul>
+
+        <h3>B. Data Aktivitas Penggunaan</h3>
+        <p>
+          Kami secara otomatis mencatat informasi teknis terkait penggunaan
+          aplikasi untuk keperluan analisis internal, yaitu:
+        </p>
+        <ul>
+          <li>
+            <strong>Waktu Terakhir Akses (Last Login/Usage Time):</strong> Kami
+            menyimpan data waktu kapan terakhir kali Anda membuka atau
+            menggunakan aplikasi. Data ini digunakan untuk menganalisis retensi
+            pengguna dan pola penggunaan aplikasi M-BOIS.
+          </li>
+        </ul>
+
+        <h2>2. Cara Kami Menggunakan Informasi Anda</h2>
+        <p>Informasi yang kami kumpulkan digunakan untuk tujuan-tujuan berikut:</p>
+        <ul>
+          <li>
+            <strong>Otentikasi dan Profil:</strong> Memverifikasi identitas Anda
+            saat masuk dan menampilkan Nama serta Foto Profil Anda di antarmuka
+            aplikasi.
+          </li>
+          <li>
+            <strong>Analisis dan Pengembangan:</strong> Data "Waktu Terakhir
+            Akses" digunakan oleh TIM M-BOIS 2025 untuk memahami seberapa sering
+            aplikasi digunakan, sehingga kami dapat meningkatkan kualitas konten
+            dan fitur di masa mendatang.
+          </li>
+          <li>
+            <strong>Fungsionalitas Fitur:</strong> Memungkinkan akses ke
+            fitur-fitur yang memerlukan penyimpanan kemajuan (progress) belajar
+            atau bermain (jika ada).
+          </li>
+        </ul>
+        <div class="highlight-box">
+          <strong>Penting:</strong> Kami tidak menjual, menyewakan, atau
+          membagikan informasi pribadi Anda (Nama, Email, Foto) kepada pihak
+          ketiga untuk tujuan pemasaran.
+        </div>
+
+        <h2>3. Izin Akses Perangkat (Permissions)</h2>
+        <p>
+          Selain data akun, Aplikasi memerlukan izin akses perangkat untuk
+          menjalankan fitur inti:
+        </p>
+
+        <h3>A. Kamera (Camera Permission)</h3>
+        <p>Aplikasi memerlukan akses kamera untuk:</p>
+        <ul>
+          <li>
+            <strong>Scan QR Code:</strong> Memindai kode pada kartu kuartet
+            fisik M-BOIS untuk membuka materi edukasi.
+          </li>
+          <li>
+            <strong>Augmented Reality (AR):</strong> Menampilkan objek budaya 3D
+            di dunia nyata.
+          </li>
+        </ul>
+        <p>
+          <em>Catatan:</em> Pemrosesan visual untuk QR dan AR dilakukan secara
+          lokal di perangkat Anda. Kami tidak merekam atau mengirimkan data
+          video/foto lingkungan sekitar Anda ke server kami.
+        </p>
+
+        <h2>4. Penggunaan Artificial Intelligence (AI)</h2>
+        <h3>A. Aset Ilustrasi (Disclaimer)</h3>
+        <p>
+          Pengguna harap mengetahui bahwa sebagian besar aset visual dan
+          ilustrasi di dalam aplikasi ini dibuat menggunakan teknologi
+          Generative AI. Aset-aset ini telah dikurasi dan divalidasi oleh TIM
+          M-BOIS 2025 untuk memastikan kesesuaian budaya dan kelayakan untuk
+          anak-anak.
+        </p>
+
+        <h3>B. Fitur Tanya Jawab</h3>
+        <p>
+          Aplikasi mungkin menyediakan fitur interaktif berbasis AI. Input teks
+          yang Anda masukkan dalam fitur tanya jawab diproses untuk memberikan
+          jawaban edukatif. Kami menyarankan pengguna untuk tidak memasukkan
+          data pribadi sensitif dalam kolom percakapan ini.
+        </p>
+
+        <h2>5. Kebijakan Privasi Anak (Children’s Privacy)</h2>
+        <p>
+          Mengingat M-BOIS adalah aplikasi edukasi yang mungkin digunakan oleh
+          anak-anak:
+        </p>
+        <ul>
+          <li>
+            Kami mendorong orang tua atau wali untuk mendampingi anak saat
+            melakukan proses Login Google.
+          </li>
+          <li>
+            Data akun Google (Nama, Email, Foto) hanya digunakan untuk keperluan
+            tampilan profil dan login, tidak didistribusikan secara publik.
+          </li>
+          <li>
+            Jika orang tua meyakini bahwa data anak telah dikumpulkan tanpa
+            persetujuan yang memadai, silakan hubungi kami untuk penghapusan
+            data.
+          </li>
+        </ul>
+
+        <h2>6. Keamanan dan Penyimpanan Data</h2>
+        <p>
+          Kami menggunakan layanan <strong>Google Firebase Authentication</strong> untuk mengamankan akses dan penyimpanan data Anda. Seluruh informasi akun seperti Nama, Email, dan Foto Profil tersimpan secara aman di server Google yang memiliki standar keamanan tinggi, sehingga privasi dan integritas data Anda terjamin sepenuhnya.
+        </p>
+
+        <h2>7. Penghapusan Data (Hak Pengguna)</h2>
+        <p>
+          Anda berhak meminta penghapusan data akun Anda (Nama, Email, Foto, dan
+          riwayat akses) dari sistem kami. Jika Anda ingin menghapus akun dan
+          data terkait, silakan hubungi kami melalui email pengembang di bawah
+          ini dengan subjek "Permintaan Penghapusan Akun".
+        </p>
+
+        <h2>8. Hubungi Kami</h2>
+        <p>
+          Jika Anda memiliki pertanyaan mengenai Kebijakan Privasi ini atau cara
+          kerja aplikasi M-BOIS, silakan hubungi tim pengembang kami:
+        </p>
+        <p>
+          <strong>Pengembang:</strong> TIM M-BOIS 2025<br />
+          <strong>Email:</strong>
+          <a href="mailto:benevology@gmail.com" style="color: var(--primary)"
+            >benevology@gmail.com</a
+          >
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 TIM M-BOIS. Hak Cipta Dilindungi.</p>
+      </div>
+    </footer>
+  </body>
+</html>
